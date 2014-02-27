@@ -1,0 +1,686 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "01_Extra_dashes.py",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     5f77817 Commented \"test\"\n\n\nUntracked files:\n	Checkio_project.sublime-project\n	Checkio_project.sublime-workspace\n\nChanges:\n	Modified   06_Speech_module.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Windows",
+				"name": "*git-status*: Checkio",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Gitk"
+			],
+			[
+				"git ",
+				"SublimeGit: Version"
+			],
+			[
+				"syn XML",
+				"Set Syntax: XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"synt pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"syn python",
+				"Set Syntax: Python"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"synpython",
+				"Set Syntax: Python"
+			],
+			[
+				"syn aut",
+				"Set Syntax: AutoIt Script"
+			],
+			[
+				"synau",
+				"Set Syntax: AutoIt Script"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packaes",
+				"Package Control: List Packages"
+			],
+			[
+				"SublimeGit",
+				"SublimeGit: Documentation"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"pushc b",
+				"Git: Push Current Branch"
+			],
+			[
+				"gar",
+				"Git: Add Remote"
+			],
+			[
+				"sublime",
+				"SublimeGit: Documentation"
+			],
+			[
+				"git help",
+				"Git: Help"
+			],
+			[
+				"git ro",
+				"Git: Remote"
+			],
+			[
+				"git merge",
+				"Git: Merge"
+			],
+			[
+				"err",
+				"Anaconda: Show error list"
+			],
+			[
+				"erro",
+				"Anaconda: Show error list"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"anaco",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"RPEL Python",
+				"SublimeREPL: Python"
+			],
+			[
+				"REPL p",
+				"SublimeREPL: Python"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"REPL",
+				"SublimeREPL: Python"
+			],
+			[
+				"error",
+				"Anaconda: Show error list"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"dife",
+				"Git: Diff Cached"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"packe",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"SIDEBAR",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"yuml",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"syn Py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn Pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"s",
+				"Set Syntax: Julia"
+			],
+			[
+				"insta	",
+				"Package Control: Install Package"
+			],
+			[
+				"UML",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"uml",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"yUML",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"yuml diagram ",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"uML",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"UM:",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"UM",
+				"yUML: Open Diagram in Browser"
+			],
+			[
+				"synt UM",
+				"Set Syntax: yUML"
+			],
+			[
+				"side ba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 337.0,
+		"history":
+		[
+			"git config",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mrajnoha/Desktop/testb.py",
+		"/C/Users/mrajnoha/Desktop/testd.py",
+		"/C/Users/mrajnoha/Desktop/testda.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/04_House_Password.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/server/location_distributor.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/client/location_sender.py",
+		"/C/Users/mrajnoha/Desktop/PFM/PFM_Obdobi.sql",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/client/test2.py",
+		"/C/Users/mrajnoha/Desktop/test.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/06_Speech_module.py",
+		"/C/Users/mrajnoha/Desktop/test2.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/web/map.html",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/test/client.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/test/server.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/web_client.html",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/location_server.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/2/Release/testserver/server.py",
+		"/C/Users/mrajnoha/_Audio books_/Reverse Eng/gw2 lib/examples/main.cpp",
+		"/C/Users/mrajnoha/_Audio books_/Reverse Eng/gw2 lib/GW2LIB_GR_v1/main.cpp",
+		"/C/Users/mrajnoha/Desktop/gw2lib.h",
+		"/C/Users/mrajnoha/Desktop/main.cpp",
+		"/C/Users/mrajnoha/_Audio books_/Reverse Eng/gw2 lib/main.cpp",
+		"/C/Users/mrajnoha/AppData/Local/Temp/Rar$DRa0.631/main.cpp",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/01_Extra_dashes.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/05_The_most_wanted_letter.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/03_Median.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/test4.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/Extra_dashes.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/test3.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/test.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/House_Password.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/Non_unique_elements.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/Anaconda/README.md",
+		"/C/Users/mrajnoha/Desktop/test5.py",
+		"/C/Users/mrajnoha/Desktop/test4.py",
+		"/C/Users/mrajnoha/Desktop/test3.py",
+		"/C/Users/mrajnoha/Desktop/testsp.yuml",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Local/Temp/Rar$DRa0.522/num2word_base.py",
+		"/C/Users/mrajnoha/AppData/Local/Temp/Rar$DRa0.723/num2word.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/SublimeJulia.sublime-settings",
+		"/C/Users/mrajnoha/Desktop/test.jl",
+		"/C/Users/mrajnoha/Desktop/yuml.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SublimeJulia/SublimeJulia.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/julia/packages/DataFrames/README.md",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/yUML/README.md",
+		"/C/Users/mrajnoha/AppData/Local/Temp/7zE3EB1.tmp/README.md",
+		"/C/Users/mrajnoha/AppData/Local/Temp/7zE7B4F.tmp/yuml.py",
+		"/C/Users/mrajnoha/AppData/Local/Temp/7zE3E2F.tmp/yuml.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/yUML/yUML.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/yUML.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Local/Temp/7zE6A9D.tmp/yuml.py",
+		"/C/Users/mrajnoha/Desktop/sublime-yuml/yuml.py",
+		"/C/Program Files/Sublime Text 3/sublime_plugin.py",
+		"/V/HuszaghovaJ/sql/Q1.sql",
+		"/V/HuszaghovaJ/sql/Q2.sql",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Installed Packages/yUML.sublime-package"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BANK",
+			"IC",
+			"USERID",
+			"365",
+			"ACT/365",
+			"365",
+			"365_",
+			"365_00",
+			"@A_EmiseID",
+			"@PrvaVyplata",
+			"@VynosObdobi",
+			"@DateCondition",
+			"000/360",
+			"      If Day( @DatumOD ) = 31\n      Begin\n         Select @DatumOD = DateAdd( Day , -1 , @DatumOD )\n      End",
+			" If Day( @DatumOD ) = 31\n      Begin\n         Select @DatumOD = DateAdd( Day , -1 , @DatumOD )\n      End",
+			"A_Priznak",
+			"api",
+			"guild",
+			"/",
+			"aaaaaaaaa",
+			"url",
+			"urlop",
+			"quote",
+			"module"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "01_Extra_dashes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								788,
+								788
+							]
+						],
+						"settings":
+						{
+							"draw_white_space": "none",
+							"git_repo": "C:\\Users\\mrajnoha\\Desktop\\_CODING_\\Checkio",
+							"git_status": true,
+							"git_view": "status",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.479906814211,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 453.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 275.0
+	},
+	"output.git-init":
+	{
+		"height": 150.0
+	},
+	"output.git-push":
+	{
+		"height": 150.0
+	},
+	"output.git-remote":
+	{
+		"height": 150.0
+	},
+	"output.sftp":
+	{
+		"height": 71.0
+	},
+	"project": "Checkio_project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"01",
+				"01_Extra_dashes.py"
+			],
+			[
+				"05",
+				"05_The_most_wanted_letter.py"
+			],
+			[
+				"s",
+				"Speech_module.py"
+			],
+			[
+				"th",
+				"The_most_wanted_letter.py"
+			],
+			[
+				"h",
+				"House_Password.py"
+			],
+			[
+				"yu",
+				"C:\\Users\\mrajnoha\\Desktop\\testsp.yuml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\Python_learning\\Python_learning.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
