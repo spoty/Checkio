@@ -15,7 +15,7 @@ def checkio(seta):
     for x in seta:
         for y in seta:
             if y != x and y.endswith(x):
-                    return 1
+                return 1
     return 0
 
 
