@@ -19,7 +19,4 @@ def checkio(number):
             print x
             return x
 
-
-
-
 checkio(50)

@@ -8,18 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "01_Extra_dashes.py",
+			"file": "LIBRARY20/array.py",
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 334,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     5f77817 Commented \"test\"\n\n\nUntracked files:\n	Checkio_project.sublime-project\n	Checkio_project.sublime-workspace\n\nChanges:\n	Modified   06_Speech_module.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree",
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     e79f2d6 next lvls\n\n\nUntracked files:\n	HOME/\n	LIBRARY20/\n\nChanges:\n	Deleted    01_Extra_dashes.py\n	Deleted    02_Non_unique_elements.py\n	Deleted    03_Median.py\n	Deleted    04_House_Password.py\n	Deleted    05_The_most_wanted_letter.py\n	Deleted    06_Speech_module.py\n	Deleted    06_Speech_module_v2.py\n	Modified   Checkio_project.sublime-workspace\n	Deleted    feed-pigeons.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 965,
+				"buffer_size": 1217,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -30,7 +30,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 110.0,
 		"selected_items":
 		[
 			[
@@ -39,7 +39,19 @@
 			],
 			[
 				"git",
-				"Gitk"
+				"Git: Show"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add Current File"
 			],
 			[
 				"git ",
@@ -344,16 +356,28 @@
 	},
 	"file_history":
 	[
-		"/C/Users/mrajnoha/Desktop/testb.py",
-		"/C/Users/mrajnoha/Desktop/testd.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/01_Extra_dashes.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/feed-pigeons.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/06_Speech_module.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/06_Speech_module_v2.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/fizz-buzz.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/array.py",
 		"/C/Users/mrajnoha/Desktop/testda.py",
+		"/C/Users/mrajnoha/Desktop/new  3.py",
+		"/C/Users/mrajnoha/Desktop/testb.py",
+		"/C/Users/mrajnoha/Desktop/new  5.py",
+		"/C/Users/mrajnoha/Desktop/testtest.py",
+		"/C/Users/mrajnoha/Desktop/n.py",
+		"/C/Users/mrajnoha/Desktop/new  6.py",
+		"/C/Users/mrajnoha/Desktop/testd.py",
+		"/C/Users/mrajnoha/Desktop/new  4.py",
+		"/C/Users/mrajnoha/Desktop/blogPostDAO.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/04_House_Password.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/server/location_distributor.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/client/location_sender.py",
 		"/C/Users/mrajnoha/Desktop/PFM/PFM_Obdobi.sql",
 		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/client/test2.py",
 		"/C/Users/mrajnoha/Desktop/test.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/06_Speech_module.py",
 		"/C/Users/mrajnoha/Desktop/test2.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/gw2-location-master/web/map.html",
 		"/C/Users/mrajnoha/Desktop/_CODING_/gw2position/test/client.py",
@@ -367,7 +391,6 @@
 		"/C/Users/mrajnoha/Desktop/main.cpp",
 		"/C/Users/mrajnoha/_Audio books_/Reverse Eng/gw2 lib/main.cpp",
 		"/C/Users/mrajnoha/AppData/Local/Temp/Rar$DRa0.631/main.cpp",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/01_Extra_dashes.py",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -427,6 +450,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"zfill",
 			"BANK",
 			"IC",
 			"USERID",
@@ -473,19 +497,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "01_Extra_dashes.py",
+					"file": "LIBRARY20/array.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								334,
+								334
 							]
 						],
 						"settings":
@@ -493,13 +517,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -513,15 +537,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 965,
+						"buffer_size": 1217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								788,
-								788
+								153,
+								153
 							]
 						],
 						"settings":
@@ -531,8 +555,6 @@
 							"git_status": true,
 							"git_view": "status",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
@@ -541,7 +563,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -575,7 +597,7 @@
 		"cols":
 		[
 			0.0,
-			0.479906814211,
+			0.558532323821,
 			1.0
 		],
 		"rows":
@@ -587,7 +609,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 453.0
+		"height": 364.0
 	},
 	"output.find_results":
 	{

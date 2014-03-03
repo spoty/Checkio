@@ -38,5 +38,3 @@ def numToWords(num,join=True):
             if (g>=1) and ((h+t+u)>0): words.append(thousands[g]+',')
     if join: return ' '.join(words)
     return words
-
-numToWords(1500)
