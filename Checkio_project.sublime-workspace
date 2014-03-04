@@ -8,10 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "LIBRARY20/01_fizz_buzz.py",
+			"file": "LIBRARY20/09_Common_words.py",
 			"settings":
 			{
-				"buffer_size": 276,
+				"buffer_size": 364,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LIBRARY20/08_Number_Base.py",
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LIBRARY20/07_Binary_count.py",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LIBRARY20/10_Absolute_sorting.py",
+			"settings":
+			{
+				"buffer_size": 320,
 				"line_ending": "Windows"
 			}
 		},
@@ -24,45 +48,21 @@
 			}
 		},
 		{
-			"file": "LIBRARY20/08_Number_Base.py",
+			"contents": "import re\n\n\ndef checkio(text):\n    pattern = r'^([aeiouy][bcdfghjklmnpqrstvwxz])+[aeiouy]?$|^([bcdfghjklmnpqrstvwxz][aeiouy])+[bcdfghjklmnpqrstvwxz]?$'\n    listr = filter(lambda x:re.match(pattern, x), re.split(r'[,. ]+', text.lower()))\n    print listr\n    return len(listr)\n\n\n\n\nprint checkio(u\"My name is ...\")\nprint checkio(u\"Dog,cat,mouse,bird.Human.\")\nprint checkio(\"Hello world\")\n",
+			"file": "OREILLY/01_Striped_Words.py",
+			"file_size": 454,
+			"file_write_time": 130383981426005225,
 			"settings":
 			{
-				"buffer_size": 104,
-				"line_ending": "Windows",
-				"name": "HEX = {\"A\":\"10\",\"B\":\"11\",\"C\":\"12\",\"D\":\"13\",\"E\":\"14"
-			}
-		},
-		{
-			"file": "LIBRARY20/09_Common_words.py",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 385,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     95a3083 Added 10_Absolute_sorting\n\n\nUntracked files:\n	OREILLY/\n\nChanges:\n	Modified   Checkio_project.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 92,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nAnaconda:\n--------\n\n  Changes in 1.1.0\n  ================\n  \n   - Added linters rc configuration files support\n   - Added vagrant boxes python environments support\n   - Port gutter mark icon themes from SublimeLinter\n   - Added vagrant commands support\n   - Debug mode for jsonserver added\n  \n  Fixes\n  =====\n  \n   - Critical bug on python3, #47\n   - Wrong key in settings, #48\n   - Minor fixes on auto-format\n   - IndexError exception in is_python decorators in windows platform, #57\n   - Exception raised when no definiitions where returned on goto to imposible modules when using vagrant\n   - Linter does not try to lint mako templates now, #62\n   - Workaround to fix problem with versions of Python prior to 2.6.5 that doesn't support unicode strings as dictionary keys, #59\n   - Fix problems with unicode in linting, #66\n   - Fixes #69 being produced by a wrong indentation\n   - more SublimeLinter legacy code fixes, now Anaconda does not underlines words that are matched by the underline regex match in commen\n  ts or strings, #68\n   - rename command was not working properly due bad subdirectory comparission, #70\n   - sublime text view.file_name() method was returning None instead of empty string whith unsaved buffers, #72\n   - now anaconda uses pep8 when pylint is configured as main linter library, #75\n   - fix silently ignored configuration option pyflakes_ignore_import_*, #76\n   - SublimeLinter/Sublime Lint regexes does not work (what a surprise), replace underline logic to fix it. #77\n   - goto command can handle now multiple results, #78\n   - seems like some packagers/versions of pylint add offsets to their output while others doesnt, #81\n   - fixed incorrect behaviour affecting anaconda_linting_behaviour option, #65\n  \n  \n  Resolves\n  ========\n  \n    - merge development branch into master, Resolves #52 /cc @enagorny\n    - added anaconda_linter_mark_style config option to fill, outline or disable outlines in linted files. Resolves #61\n    - fix typos in configuration file comments. #64\n    - now anaconda shows messages in the status bar when usages, goto and doc doesn't find anything, #79\n    - added workaround to resolve, #74\n    - added JSON environment config file support, #83\n  \n  For more detaild information about those changes run git v1.1.0..v1.0.1 on git repository\n  \n\n  Changes in 1.0.1\n  ================\n  \n   - JsonServer follows now a full modular approach\n   - Jedi library has been updated to version 0.7.0alpha1\n   - Logic split in event listeners has been improved\n  \n  Resolves\n  ========\n  \n    - #43\n    - #44\n    - #45\n    - #46\n  \n\n  Changes in 1.0.0\n  ================\n  \n   - The plugin has now a single entry point\n   - anaconda_linter.py has been removed\n   - Libraries logic are now inside anaconda_lib package\n   - Commands are now inside commands package\n   - Event listeners are now inside listeners package\n   - anaconda.py has now a single one responsability, startup the plugin\n   - Some code has been cleaned\n   - Anaconda now follows a modular architecture\n   - Version has been upgraded to 1.0.0 first stable release\n  \n  Resolves\n  ========\n  \n    - #42\n  \n",
-			"settings":
-			{
-				"buffer_size": 3182,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     ce87382 Added 08_Number_base\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree\n#    backspace = discard stash",
-			"settings":
-			{
-				"buffer_size": 916,
+				"buffer_size": 961,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -73,12 +73,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 135.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"synpy",
-				"Set Syntax: Python"
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -87,6 +95,10 @@
 			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"synpy",
+				"Set Syntax: Python"
 			],
 			[
 				"gitpush",
@@ -147,10 +159,6 @@
 			[
 				"synau",
 				"Set Syntax: AutoIt Script"
-			],
-			[
-				"install ",
-				"Package Control: Install Package"
 			],
 			[
 				"pac remo",
@@ -237,10 +245,6 @@
 				"SublimeREPL: Python"
 			],
 			[
-				"package",
-				"Package Control: Remove Package"
-			],
-			[
 				"anaconda",
 				"Anaconda: Disable linting on this file"
 			],
@@ -271,10 +275,6 @@
 			[
 				"dife",
 				"Git: Diff Cached"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
 			],
 			[
 				"sidebar",
@@ -407,16 +407,24 @@
 	},
 	"file_history":
 	[
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/04_House_Password.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/01_fizz_buzz.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/02_even_the_last.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/03_three_words.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/01_Extra_dashes.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/Checkio_project.sublime-project",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/03_Median.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/02_Non_unique_elements.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/05_The_most_wanted_letter.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module_v2.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/feed-pigeons.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/07_Binary_count.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/08_Number_Base.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/06_The_end_of_other.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/05_Digits_Multiplication.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/03_three_words.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/feed-pigeons.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module_v2.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/02_even_the_last.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/03_Median.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/04_most_numbers.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/02_Non_unique_elements.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/01_Extra_dashes.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/feed-pigeons.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/06_Speech_module.py",
@@ -554,24 +562,115 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LIBRARY20/01_fizz_buzz.py",
+					"file": "LIBRARY20/09_Common_words.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 276,
+						"buffer_size": 364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LIBRARY20/08_Number_Base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LIBRARY20/07_Binary_count.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LIBRARY20/10_Absolute_sorting.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
 							]
 						],
 						"settings":
@@ -589,7 +688,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 4,
 					"file": "HOME/04_House_Password.py",
 					"semi_transient": false,
 					"settings":
@@ -601,8 +700,8 @@
 						"selection":
 						[
 							[
-								583,
-								583
+								480,
+								456
 							]
 						],
 						"settings":
@@ -618,83 +717,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "LIBRARY20/08_Number_Base.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104,
-								104
-							]
-						],
-						"settings":
-						{
-							"auto_name": "HEX = {\"A\":\"10\",\"B\":\"11\",\"C\":\"12\",\"D\":\"13\",\"E\":\"14",
-							"incomplete_sync": null,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "LIBRARY20/09_Common_words.py",
+					"buffer": 5,
+					"file": "OREILLY/01_Striped_Words.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
+								385,
+								385
 							]
 						],
 						"settings":
@@ -702,42 +742,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3182,
-								3182
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -751,15 +762,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 916,
+						"buffer_size": 961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								606,
+								417
 							]
 						],
 						"settings":
@@ -777,7 +788,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
