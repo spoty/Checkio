@@ -110,6 +110,18 @@ def dijkstra(net, s, t):
     return float(("%.2f" % labels[t]))
 
 
+def just_straight_lines(lines_of_sight, walls):
+    return [line for line in lines_of_sight if not any(wall in walls for wall in line)]
+
+
+def just_edges(straight_lines):
+    edges = []
+    for line in straight_lines:
+        if len(line) != 1:
+            edges.append(line[::len(line) - 1])
+    return edges
+
+
 def make_link(G, node1, node2):
     if node1 not in G:
         G[node1] = {}
@@ -123,18 +135,6 @@ def make_graph(link_list):
     for n1, n2 in link_list:
         make_link(G, n1, n2)
     return G
-
-
-def just_straight_lines(lines_of_sight, walls):
-    return [line for line in lines_of_sight if not any(wall in walls for wall in line)]
-
-
-def just_edges(straight_lines):
-    edges = []
-    for line in straight_lines:
-        if len(line) != 1:
-            edges.append(line[::len(line) - 1])
-    return edges
 
 
 def checkio(string):
