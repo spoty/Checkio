@@ -8,34 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "LIBRARY20/09_Common_words.py",
+			"file": "OREILLY/test2.py",
 			"settings":
 			{
-				"buffer_size": 364,
+				"buffer_size": 718,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "LIBRARY20/08_Number_Base.py",
+			"file": "OREILLY/test.py",
 			"settings":
 			{
-				"buffer_size": 104,
+				"buffer_size": 1259,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "LIBRARY20/07_Binary_count.py",
+			"file": "OREILLY/Eulerian Path_Circuit.py",
 			"settings":
 			{
-				"buffer_size": 224,
+				"buffer_size": 1776,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "LIBRARY20/10_Absolute_sorting.py",
+			"file": "OREILLY/test7.py",
 			"settings":
 			{
-				"buffer_size": 320,
+				"buffer_size": 1725,
 				"line_ending": "Windows"
 			}
 		},
@@ -48,21 +48,52 @@
 			}
 		},
 		{
-			"contents": "import re\n\n\ndef checkio(text):\n    pattern = r'^([aeiouy][bcdfghjklmnpqrstvwxz])+[aeiouy]?$|^([bcdfghjklmnpqrstvwxz][aeiouy])+[bcdfghjklmnpqrstvwxz]?$'\n    listr = filter(lambda x:re.match(pattern, x), re.split(r'[,. ]+', text.lower()))\n    print listr\n    return len(listr)\n\n\n\n\nprint checkio(u\"My name is ...\")\nprint checkio(u\"Dog,cat,mouse,bird.Human.\")\nprint checkio(\"Hello world\")\n",
-			"file": "OREILLY/01_Striped_Words.py",
-			"file_size": 454,
-			"file_write_time": 130383981426005225,
+			"file": "OREILLY/04_Ghosts_age.py",
 			"settings":
 			{
-				"buffer_size": 385,
+				"buffer_size": 451,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     95a3083 Added 10_Absolute_sorting\n\n\nUntracked files:\n	OREILLY/\n\nChanges:\n	Modified   Checkio_project.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash from worktree\n#    backspace = discard stash",
+			"file": "/C/Users/mrajnoha/Desktop/Bat_bunker.py",
 			"settings":
 			{
-				"buffer_size": 961,
+				"buffer_size": 4790,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "OREILLY/raytrace.py",
+			"settings":
+			{
+				"buffer_size": 759,
+				"line_ending": "Windows",
+				"name": "def"
+			}
+		},
+		{
+			"file": "HOME/05_The_most_wanted_letter.py",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "OREILLY/test6.py",
+			"settings":
+			{
+				"buffer_size": 1506,
+				"line_ending": "Windows",
+				"name": "graph = [[1, 2], [1, 3], [1, 4], [2, 3], [3, 4], ["
+			}
+		},
+		{
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     b7d7f35 Added puzzle solution for 01_Striped_Worlds\n\n\nUntracked files:\n	OREILLY/02_Disposable_teleports.py\n	OREILLY/04_Ghosts_age.py\n	OREILLY/Bat_bunker.py\n	OREILLY/Eulerian Path_Circuit.py\n	OREILLY/raytrace.py\n	OREILLY/test.py\n	OREILLY/test2.py\n	OREILLY/test3.py\n	OREILLY/test4.py\n	OREILLY/test6.py\n	OREILLY/test7.py\n\nChanges:\n	Modified   Checkio_project.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 1246,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -73,12 +104,88 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 360.0,
 		"selected_items":
 		[
 			[
+				"error",
+				"Anaconda: Show error list"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"syn pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"err",
+				"Anaconda: Show error list"
+			],
+			[
+				"anco",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anca ",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn pythn",
+				"Set Syntax: Python"
+			],
+			[
+				"anc do",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ancnd",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"PEP",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"anac",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ana",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anacon",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anac err",
+				"Anaconda: Show error list"
+			],
+			[
+				"ancon",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ancond",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
 				"package",
-				"Package Control: Upgrade Package"
+				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -91,10 +198,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"git push",
-				"Git: Push"
 			],
 			[
 				"synpy",
@@ -209,10 +312,6 @@
 				"Git: Merge"
 			],
 			[
-				"err",
-				"Anaconda: Show error list"
-			],
-			[
 				"erro",
 				"Anaconda: Show error list"
 			],
@@ -245,16 +344,8 @@
 				"SublimeREPL: Python"
 			],
 			[
-				"anaconda",
-				"Anaconda: Disable linting on this file"
-			],
-			[
 				"REPL",
 				"SublimeREPL: Python"
-			],
-			[
-				"error",
-				"Anaconda: Show error list"
 			],
 			[
 				"disable",
@@ -407,23 +498,33 @@
 	},
 	"file_history":
 	[
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/10_Absolute_sorting.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/Checkio_project.sublime-project",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/05_Digits_Multiplication.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/02_Disposable_teleports.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test3.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/01_Extra_dashes.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/02_Non_unique_elements.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/04_House_Password.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/05_The_most_wanted_letter.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/win_process.py",
+		"/C/Python27/Lib/memory.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test7.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test4.py",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/09_Common_words.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/08_Number_Base.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/07_Binary_count.py",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/01_Striped_Words.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/01_fizz_buzz.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/02_even_the_last.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/03_three_words.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/01_Extra_dashes.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/Checkio_project.sublime-project",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/03_Median.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/02_Non_unique_elements.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/05_The_most_wanted_letter.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module_v2.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/feed-pigeons.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/07_Binary_count.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/08_Number_Base.py",
-		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/06_The_end_of_other.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/05_Digits_Multiplication.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/04_most_numbers.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/01_Extra_dashes.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/feed-pigeons.py",
@@ -462,7 +563,6 @@
 		"/C/Users/mrajnoha/AppData/Local/Temp/Rar$DRa0.631/main.cpp",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
-		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/05_The_most_wanted_letter.py",
 		"/C/Users/mrajnoha/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/03_Median.py",
@@ -519,6 +619,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"find_eulerian_tour",
 			"list",
 			"zfill",
 			"BANK",
@@ -552,6 +654,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -562,29 +665,197 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LIBRARY20/09_Common_words.py",
+					"file": "OREILLY/test2.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 364,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								297,
+								297
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "OREILLY/test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "OREILLY/Eulerian Path_Circuit.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "OREILLY/test7.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								718
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "HOME/04_House_Password.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "OREILLY/04_Ghosts_age.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -595,12 +866,43 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "LIBRARY20/08_Number_Base.py",
+					"buffer": 6,
+					"file": "/C/Users/mrajnoha/Desktop/Bat_bunker.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 4790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2564,
+								2564
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "OREILLY/raytrace.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 759,
 						"regions":
 						{
 						},
@@ -613,25 +915,26 @@
 						],
 						"settings":
 						{
+							"auto_name": "def",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "LIBRARY20/07_Binary_count.py",
+					"buffer": 8,
+					"file": "HOME/05_The_most_wanted_letter.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 224,
+						"buffer_size": 255,
 						"regions":
 						{
 						},
@@ -657,55 +960,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "LIBRARY20/10_Absolute_sorting.py",
+					"buffer": 9,
+					"file": "OREILLY/test6.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 320,
+						"buffer_size": 1506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "HOME/04_House_Password.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								480,
-								456
-							]
-						],
-						"settings":
-						{
+							"auto_name": "graph = [[1, 2], [1, 3], [1, 4], [2, 3], [3, 4], [",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -717,38 +990,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "OREILLY/01_Striped_Words.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								385,
-								385
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -758,19 +1000,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 961,
+						"buffer_size": 1246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								606,
-								417
+								181,
+								181
 							]
 						],
 						"settings":
@@ -780,6 +1022,8 @@
 							"git_status": true,
 							"git_view": "status",
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
@@ -822,7 +1066,7 @@
 		"cols":
 		[
 			0.0,
-			0.543389633081,
+			0.541933605125,
 			1.0
 		],
 		"rows":
@@ -834,7 +1078,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 364.0
+		"height": 297.0
 	},
 	"output.find_results":
 	{
@@ -863,7 +1107,7 @@
 	"project": "Checkio_project.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -905,7 +1149,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\Python_learning\\Python_learning.sublime-project"
+				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\_PROJECTS_\\TEST_1\\TEST_1.sublime-project"
 			]
 		],
 		"width": 380.0
