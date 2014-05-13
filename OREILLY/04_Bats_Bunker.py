@@ -62,9 +62,9 @@ def Bresenham_supercover(x1, y1, x2, y2):
 def dijkstra(net, s, t):
     if s == t:
         return "The start and terminal nodes are the same."
-    if not s in net:
+    if s not in net:
         return "There is no start node called " + str(s) + "."
-    if not t in net:
+    if t not in net:
         return "There is no terminal node called " + str(t) + "."
     # create a labels dictionary
     labels = {}
