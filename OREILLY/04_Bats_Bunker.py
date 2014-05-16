@@ -2,6 +2,7 @@ from math import sqrt
 
 
 def Bresenham_supercover(x1, y1, x2, y2):
+    """http://lifc.univ-fcomte.fr/home/~ededu/projects/bresenham/"""
     x, y = x1, y1
     dx, dy = x2 - x1, y2 - y1
     point = [(x1, y1)]
@@ -29,12 +30,12 @@ def Bresenham_supercover(x1, y1, x2, y2):
                 y += ystep
                 error -= ddx
                 if error + errorprev < ddx:
-                    point.append((x, y-ystep))
+                    point.append((x, y - ystep))
                 elif error + errorprev > ddx:
-                    point.append((x-xstep, y))
+                    point.append((x - xstep, y))
                 else:
-                    point.append((x, y-ystep))
-                    point.append((x-xstep, y))
+                    point.append((x, y - ystep))
+                    point.append((x - xstep, y))
             point.append((x, y))
             errorprev = error
             i += 1
@@ -47,12 +48,12 @@ def Bresenham_supercover(x1, y1, x2, y2):
                 x += xstep
                 error -= ddy
                 if error + errorprev < ddy:
-                    point.append((x-xstep, y))
+                    point.append((x - xstep, y))
                 elif error + errorprev > ddy:
-                    point.append((x, y-ystep))
+                    point.append((x, y - ystep))
                 else:
-                    point.append((x-xstep, y))
-                    point.append((x, y-ystep))
+                    point.append((x - xstep, y))
+                    point.append((x, y - ystep))
             point.append((x, y))
             errorprev = error
             i += 1
@@ -60,6 +61,7 @@ def Bresenham_supercover(x1, y1, x2, y2):
 
 
 def dijkstra(net, s, t):
+    """http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"""
     if s == t:
         return "The start and terminal nodes are the same."
     if s not in net:
@@ -146,7 +148,8 @@ def checkio(string):
         bunker = [(string[x][y], x + 0.5, y + 0.5)
                   for x in range(map_x) for y in range(map_y)]
     if map_x > map_y:
-                bunker = [(string[y][x], x + 0.5, y + 0.5) for x in range(map_x) for y in range(map_y)]
+                bunker = [(string[y][x], x + 0.5, y + 0.5)
+                          for x in range(map_x) for y in range(map_y)]
     # Bats + Alfa
     bats = [x for x in bunker if x[0] == "B" or x[0] == "A"]
     # Walls
