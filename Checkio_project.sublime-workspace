@@ -8,18 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "LIBRARY20/10_Absolute_sorting.py",
+			"file": "SCIPY/01_matrix_transpose.py",
 			"settings":
 			{
-				"buffer_size": 211,
+				"buffer_size": 739,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     2d5177d PEP8\n\n\nUnstaged changes:\n	Modified   OREILLY/04_Bats_Bunker.py\n\nStaged changes:\n	Modified   OREILLY/04_Bats_Bunker.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"file": "SCIPY/02_Weekend_counter.py",
 			"settings":
 			{
-				"buffer_size": 998,
+				"buffer_size": 276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     bdde156 gitignore\n\n\nUntracked files:\n	SCIPY/02_Weekend_counter.py\n\nChanges:\n	Modified   Checkio_project.sublime-workspace\n	Modified   SCIPY/01_matrix_transpose.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 1035,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -34,12 +42,24 @@
 		"selected_items":
 		[
 			[
-				"pep",
-				"Anaconda: Autoformat PEP8 Errors"
+				"ana",
+				"Anaconda: Disable linting on this file"
 			],
 			[
 				"push",
 				"Git: Push"
+			],
+			[
+				"anco d",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"syn p",
+				"Set Syntax: Python"
 			],
 			[
 				"git pus",
@@ -95,10 +115,6 @@
 			],
 			[
 				"anac",
-				"Anaconda: Disable linting on this file"
-			],
-			[
-				"ana",
 				"Anaconda: Disable linting on this file"
 			],
 			[
@@ -428,9 +444,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/.gitignore",
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/10_Absolute_sorting.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/04_Bats_Bunker.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/06_Speech_module.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/10_Absolute_sorting.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/Eulerian Path_Circuit.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test2.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test.py",
@@ -608,24 +625,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LIBRARY20/10_Absolute_sorting.py",
+					"file": "SCIPY/01_matrix_transpose.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 211,
+						"buffer_size": 739,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								291,
+								0
 							]
 						],
 						"settings":
@@ -633,10 +650,44 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SCIPY/02_Weekend_counter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -649,19 +700,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 998,
+						"buffer_size": 1035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								883,
-								883
+								935,
+								935
 							]
 						],
 						"settings":
@@ -681,7 +732,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -715,7 +766,7 @@
 		"cols":
 		[
 			0.0,
-			0.689158394654,
+			0.676376897393,
 			1.0
 		],
 		"rows":
@@ -727,7 +778,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 297.0
+		"height": 450.0
 	},
 	"output.find_results":
 	{
@@ -798,7 +849,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\_PROJECTS_\\TEST_1\\TEST_1.sublime-project"
+				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\_PROJECTS_\\PY_WIN32\\PYTIN32.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -818,7 +869,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

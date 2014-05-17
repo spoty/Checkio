@@ -7,6 +7,8 @@ def checkio(matrix):
     # 2 Valid for N x N and N x M
     return [list(i) for i in zip(*matrix)]
 
+    # return list(zip(*matrix))
+
 print checkio([[1, 2, 3],
                [4, 5, 6],
                [7, 8, 9]])
