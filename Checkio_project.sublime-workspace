@@ -16,18 +16,29 @@
 			}
 		},
 		{
+			"contents": "from datetime import date, timedelta\n\n\ndef checkio(fromdate, todate):\n#     \"\"\" This Function counts weekends (in days)\n#     DOCs: https://docs.python.org/2/library/datetime.html\n\n#     My solution isn't very good, time need for computation\n#     is increasing.\n#     READ: http://en.wikipedia.org/wiki/Computational_complexity_theory\n#     \"\"\"\n    relevant_days = (fromdate - timedelta(1) + timedelta(x + 1) for x in xrange((todate-fromdate).days + 1))\n    return sum(1 for day in relevant_days if day.weekday() > 4)\n\n\nprint checkio(date(2013, 9, 18), date(2013, 9, 23))\nprint checkio(date(2013, 1, 1), date(2013, 2, 1))\nprint checkio(date(2013, 2, 2), date(2013, 2, 3))\n\n\"\"\"\nFrom comments:\nhttp://en.wikipedia.org/wiki/Iverson_bracket\n\ndef checkio(d1, d2):\n    w1, w2 = d1.weekday(), d2.weekday()\n    count = (d2 - d1).days // 7 * 2\n    while True:\n        count += w2 > 4\n        if w1 == w2: return count\n        w2 = (w2 - 1) % 7\n\n\n\ndef checkio(fromdate, todate):\n    return sum(1 for d in range((todate - fromdate).days + 1)\n        if (fromdate + timedelta(d)).weekday() in [5, 6])\n\nBut a more important point: bool can count.\nBDFL intentionally made bool a subclass of int.\n\nSo,\n    sum(cond for iter)\nis nicer than\n    sum(1 for iter if cond)\n\ndef checkio(fromdate, todate):\n    return sum(((fromdate + timedelta(d)).weekday() in [5, 6]) for d in range((todate - fromdate).days + 1))\n\nBonus from veky:\ncheckio=lambda d,e:sum(i%7>4for i in range(d.toordinal()-1,e.toordinal()))\n\n\"\"\"\n\n",
 			"file": "SCIPY/02_Weekend_counter.py",
+			"file_size": 1448,
+			"file_write_time": 130447224945793998,
 			"settings":
 			{
-				"buffer_size": 276,
+				"buffer_size": 1493,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     bdde156 gitignore\n\n\nUntracked files:\n	SCIPY/02_Weekend_counter.py\n\nChanges:\n	Modified   Checkio_project.sublime-workspace\n	Modified   SCIPY/01_matrix_transpose.py\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"file": "SCIPY/03_Triangle_angles.py",
 			"settings":
 			{
-				"buffer_size": 1035,
+				"buffer_size": 1026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     39b0b6d update\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 932,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -38,24 +49,24 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 160.0,
 		"selected_items":
 		[
-			[
-				"ana",
-				"Anaconda: Disable linting on this file"
-			],
 			[
 				"push",
 				"Git: Push"
 			],
 			[
-				"anco d",
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"ana",
 				"Anaconda: Disable linting on this file"
 			],
 			[
-				"pep",
-				"Anaconda: Autoformat PEP8 Errors"
+				"anco d",
+				"Anaconda: Disable linting on this file"
 			],
 			[
 				"syn p",
@@ -444,6 +455,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/03_Ghosts_age.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/.gitignore",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/LIBRARY20/10_Absolute_sorting.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/04_Bats_Bunker.py",
@@ -455,7 +467,6 @@
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/test7.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/04_House_Password.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/04_Ghosts_age.py",
-		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/03_Ghosts_age.py",
 		"/C/Users/mrajnoha/Desktop/Bat_bunker.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/HOME/05_The_most_wanted_letter.py",
 		"/C/Users/mrajnoha/Desktop/_CODING_/Checkio/OREILLY/raytrace.py",
@@ -575,6 +586,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"to_date",
+			"from_date",
 			"not",
 			"X",
 			"x",
@@ -625,7 +638,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -641,8 +654,8 @@
 						"selection":
 						[
 							[
-								291,
-								0
+								377,
+								377
 							]
 						],
 						"settings":
@@ -658,7 +671,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -667,15 +680,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 276,
+						"buffer_size": 1493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								546,
+								546
 							]
 						],
 						"settings":
@@ -690,7 +703,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "SCIPY/03_Triangle_angles.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -700,19 +747,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1035,
+						"buffer_size": 932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								935,
-								935
+								127,
+								127
 							]
 						],
 						"settings":
@@ -732,7 +779,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
