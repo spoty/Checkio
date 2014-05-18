@@ -35,10 +35,21 @@
 			}
 		},
 		{
-			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     39b0b6d update\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"contents": "def make_dict(text):\n    def count_char(text_structure, char):\n        if char not in text_structure:\n            text_structure[char] = {}\n        (text_structure[char]) = text.count(char)\n    text_structure = {}\n    for char in text:\n        count_char(text_structure, char)\n    return text_structure\n\ndef checkio(text1, text2):\n    \"\"\"\n    You are given two words or phrase. Verify If they are anagrams or not.\n    Return True or False\n    \"\"\"\n    # # Remove whitespaces and apply lowercases.\n    clean = lambda text: text.lower().replace(' ','')\n    return make_dict(clean(text1)) == make_dict(clean(text2))\n\n\n\n\nprint checkio(\"Programming\", \"Gram Ring Mop\")\nprint checkio(\"Hello\", \"Ole Oh\")\nprint checkio(\"Kyoto\", \"Tokyo\")\n",
+			"file": "SCIPY/04_Verify_anagrams.py",
+			"file_size": 752,
+			"file_write_time": 130448757316534914,
 			"settings":
 			{
-				"buffer_size": 932,
+				"buffer_size": 727,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ https://github.com/spoty/Checkio.git\nLocal:    master ~\\Desktop\\_CODING_\\Checkio\nHead:     fd97e6b ignore pls\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 936,
 				"line_ending": "Windows",
 				"name": "*git-status*: Checkio",
 				"read_only": true,
@@ -49,9 +60,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 160.0,
+		"height": 85.0,
 		"selected_items":
 		[
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git merg",
+				"Git: Merge"
+			],
+			[
+				"git commit ",
+				"Git: Amend Commit"
+			],
 			[
 				"push",
 				"Git: Push"
@@ -143,10 +170,6 @@
 			[
 				"ancond",
 				"Anaconda: Enable linting on this file"
-			],
-			[
-				"git push",
-				"Git: Push"
 			],
 			[
 				"package",
@@ -671,7 +694,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -703,7 +726,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -737,7 +760,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "SCIPY/04_Verify_anagrams.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 41.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -747,19 +804,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 932,
+						"buffer_size": 936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								131,
+								131
 							]
 						],
 						"settings":
@@ -779,7 +836,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -813,7 +870,7 @@
 		"cols":
 		[
 			0.0,
-			0.676376897393,
+			0.525908513318,
 			1.0
 		],
 		"rows":
@@ -838,6 +895,10 @@
 	"output.git-init":
 	{
 		"height": 150.0
+	},
+	"output.git-pull":
+	{
+		"height": 132.0
 	},
 	"output.git-push":
 	{
@@ -896,7 +957,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\_PROJECTS_\\PY_WIN32\\PYTIN32.sublime-project"
+				"C:\\Users\\mrajnoha\\Desktop\\_CODING_\\_PROJECTS_\\CEFPY\\CEFPY.sublime-project"
 			]
 		],
 		"width": 380.0
