@@ -45,5 +45,9 @@ is nicer than
 
 def checkio(fromdate, todate):
     return sum(((fromdate + timedelta(d)).weekday() in [5, 6]) for d in range((todate - fromdate).days + 1))
+
+Bonus from veky:
+checkio=lambda d,e:sum(i%7>4for i in range(d.toordinal()-1,e.toordinal()))
+
 """
 
