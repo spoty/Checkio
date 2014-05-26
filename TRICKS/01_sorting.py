@@ -1,4 +1,6 @@
+# from apihelper import info
 l = [1, 2, 3, 4, 5, 6, 7, 8]
+# info(l)
 sort_1 = zip(l[::2], l[1::2])
 print sort_1
 # print [i for i in zip(l[::2], l[1::2])]
