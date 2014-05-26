@@ -26,3 +26,9 @@ print checkio( "10:37:49" )
 print checkio( "21:34:56" )
 print checkio( "00:1:02" )
 print checkio( "23:59:59" )
+
+# checkio=lambda data: __import__("re").sub(r"\d+",lambda match: " ".join(bin(
+#     digit)[2:].zfill(4) for digit in divmod(int(match.group()),10)),data
+#     ).replace(":0"," : ")
+
+# print checkio("10:37:49")
