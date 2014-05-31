@@ -76,6 +76,20 @@ def checkio(weights):
 
     return abs(sum(bests)-sub(weights, bests))
 
+def checkio_dp(data):
+    """"
+    Pseudo-polynomial time algorithm - Dynamic programming
+    """"
+    s = sum(data)
+    dp = [True] + [False for _ in range(s)]
+    for i in data:
+        for j in range(s,-1,-1):
+            if j >= i and dp[j-i]:
+                dp[j] = True
+
+    for i in range((s+1)//2,s+1):
+        if dp[i]: return i, abs(s-i*2)
+    return -1
 
 # print Karmarkar_karp([9,9,7,6,5])
 # print Karmarkar_karp([12, 30, 30, 32, 42, 49])
