@@ -1,10 +1,17 @@
-"""
-Partition problem: http://en.wikipedia.org/wiki/Partition_problem
+""" Partition problem: http://en.wikipedia.org/wiki/Partition_problem
 http://www.americanscientist.org/issues/pub/2002/3/the-easiest-hard-problem/
 http://web.cecs.pdx.edu/~bart/cs510ai/papers/korf-ckk.pdf
+
+Input data:
+A list of the weights as a list of integers.
+
+Output data:
+The number representing the lowest possible weight difference as a positive
+integer.
 """
-import random
-import math
+
+
+import random import math
 
 def greedy(numbers):
     """
