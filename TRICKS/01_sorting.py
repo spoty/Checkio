@@ -11,6 +11,8 @@ print sort_2
 sort_3 = l[::len(l)-1]
 print sort_3
 
+n =3
+print zip(*[iter(l)]*n)
 
 # ULOHA: Naprogramuje nieco taketo:
 

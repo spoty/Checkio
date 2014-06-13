@@ -18,14 +18,12 @@ where
 
 
 def checkio(rhyme, word):
-    poem = [x.replace(" ", "") for x in rhyme.split("\n")]
-
-    for coo_r, x in enumerate(poem):
+    for coo_r, x in enumerate([x.replace(" ", "") for x in rhyme.split("\n")]):
             for coo_w,z in enumerate(x):
                 if x[coo_w] == word[0]:
                     if x[coo_w:coo_w+len(word)] == word:
                         return [coo_r+1, coo_w+1, coo_r+1, coo_w+len(word)]
-    # print "\n".join(rhyme)
+
 
 
 
