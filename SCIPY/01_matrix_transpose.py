@@ -2,12 +2,12 @@ def checkio(matrix):
     """ This Function Transpose matrix
     """
     # 1 For N x N cases
-    print [col for x ,row in enumerate(matrix)
-                   for y, col in enumerate(row)]
+    # print [col for x ,row in enumerate(matrix)
+    #                for y, col in enumerate(row)]
     # 2 Valid for N x N and N x M
     # return [list(i) for i in zip(*matrix)]
 
-    # return list(zip(*matrix))
+    return list(zip(*matrix))
 
 print checkio([[1, 2, 3],
                [4, 5, 6],
