@@ -18,18 +18,25 @@ where
 
 
 def checkio(rhyme, word):
+<<<<<<< HEAD
     poem = [x.replace(" ", "").lower() for x in rhyme.split("\n")]
 
     for coo_r, x in enumerate(poem):
+=======
+    for coo_r, x in enumerate([x.replace(" ", "") for x in rhyme.split("\n")]):
+>>>>>>> 4d787912d6c446f34cf66e16a20681c7b74108f8
             for coo_w,z in enumerate(x):
                 if x[coo_w] == word[0]:
                     if x[coo_w:coo_w+len(word)] == word:
                         return [coo_r+1, coo_w+1, coo_r+1, coo_w+len(word)]
+<<<<<<< HEAD
     for coo_r, x in enumerate(map(None, *poem)):
             for coo_w,z in enumerate(x):
                 if x[coo_w] == word[0]:
                     if "".join(str(i) for i in x[coo_w:coo_w+len(word)]) == word:
                         return [coo_w+1,coo_r+1,coo_w+len(word),coo_r+1]
+=======
+>>>>>>> 4d787912d6c446f34cf66e16a20681c7b74108f8
 
 
 
