@@ -5,28 +5,35 @@ COW = r'''
                 ||----w |
                 ||     ||
 '''
+import re
 import textwrap
 def cowsay(s):
-    print len(s.split())
-    if len(s.split()) != 1:
-        s = ' '.join(s.split())
     f = textwrap.wrap(s,39)
-    d = len(f[0])
-    f = [x.ljust(d) for x in f]
-    top =  " "+"_"*(d +2)
+    if len(s)>39:
+        f = textwrap.wrap(' '.join(s.split()),39)
+        d = max([len(x) for x in f])
+        f = [x.ljust(d) for x in f]
+    else:
+        d, f[0] = len(re.sub('\s+', ' ', s)), re.sub('\s+', ' ', s)
     h = []
+    m = lambda lb,rb: h.append(lb+str(n.format(f))+rb)
     for i, x in enumerate(f):
-        n = "{["+ str(i) +"]}"
-        if len(f) == 1: h.append("< "+str(n.format(f))+" >")
-        elif (i == 0): h.append("/ "+n.format(f)+" \\")
-        elif (i == len(f)-1): h.append("\\ "+str(n.format(f))+" /")
-        else: h.append("| "+str(n.format(f))+" |")
-    bottom =  " "+"-"*(d +2)
-    return str("\n"+top+"\n"+"\n".join(h)+"\n"+bottom+COW)
+        n = '{['+ str(i) +']}'
+        if len(f) == 1: m('< ', ' >')
+        elif (i == 0): m('/ ', ' \\')
+        elif (i == len(f)-1): m('\\ ', ' /')
+        else: m('| ', ' |')
+    top, bottom =  '\n'+' '+'_'*(2+d)+'\n', '\n'+' '+'-'*(2+d)
+    return str(top+'\n'.join(h)+bottom+COW)
 
 
 
-# print cowsay('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+print cowsay('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
 print cowsay(' a')
 print cowsay('a ')
-print cowsay("spaces inside")
+print cowsay('looooooooooooooooooooooooooooooooooooong')
+print cowsay('    c    ')
+print cowsay('A longtextwithonlyonespacetofittwolines.')
+# print cowsay('l')
+# print len('looooooooooooooooooooooooooooooooooooong')
+# print cowsay('spaces inside')
