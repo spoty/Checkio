@@ -5,13 +5,13 @@ def checkio(matrix):
     # print [col for x ,row in enumerate(matrix)
     #                for y, col in enumerate(row)]
     # 2 Valid for N x N and N x M
-    # return [list(i) for i in zip(*matrix)]
+    return [list(i) for i in zip(*matrix)]
 
-    return list(zip(*matrix))
+    # return list(zip(*matrix))
 
-print checkio([[1, 2, 3],
-               [4, 5, 6],
-               [7, 8, 9]])
+print checkio([[1, 2, 3, 5],
+               [4, 5, 6, 5 ],
+               [7, 8, 9, 5]])
 
 # print checkio([[1, 4, 3],
 #          [8, 2, 6],
