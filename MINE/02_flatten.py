@@ -1,15 +1,18 @@
 import re
 
+
 def flat_list(l):
     return [int(x) for x in re.sub(r'[\[,\]]', ' ', str(l)).split()]
 
-#regex
+# regex
 flat_list = lambda l: [int(x) for x in re.sub(r'[\[,\]]', ' ', str(l)).split()]
 
 # replace
-flat_list = lambda l: [int(x) for x in str(l).replace('[',' ').replace(']',' ').split(',')]
+flat_list = lambda l: [int(x) for x in str(l).replace('[', ' ').replace(']', ' ').split(',')]
 
 # recursive - generator
+
+
 def flat_list(l):
     for item in l:
         try:
@@ -19,8 +22,11 @@ def flat_list(l):
             yield item
 
 # recursive
+
+
 def flat_list(l):
-    if l==[]: return []
+    if l == []:
+        return []
     elif type(l) != list:
         return [l]
     else:
