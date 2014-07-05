@@ -1,9 +1,9 @@
-def checkio(matrix):
-    return [[-e for e in i] for i in matrix] == [list(i) for i in zip(*matrix)]
+# def checkio(matrix):
+#     return [[-e for e in i] for i in matrix] == [list(i) for i in zip(*matrix)]
 
-checkio = lambda m: [[-e for e in i] for i in m] == [list(i) for i in zip(*m)]
+# checkio = lambda m: [[-e for e in i] for i in m] == [list(i) for i in zip(*m)]
 
-
+checkio = lambda m: m == [[-e for e in i] for i in zip(*m)]
 
 print checkio([
     [0, 1, 2],
