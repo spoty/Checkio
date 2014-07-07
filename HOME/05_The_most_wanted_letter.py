@@ -5,10 +5,9 @@ text = "Lorem ipsum dolor sit amet!!!!!!!!!!"
 
 
 def checkio(text):
-    text2 = re.sub('[ \t, !]', '', text)
+    text2 = re.sub('[ \t, !]', '', text.lower())
     x = sorted(collections.Counter(text2).most_common(1))[0][0]
-    y = x.lower()
-    return y
+    return x
 
 
 print checkio(text)
