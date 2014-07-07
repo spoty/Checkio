@@ -13,10 +13,11 @@ Precondition:
 V x from data : x == 0 or x == 1
 """
 
+
 def find(pattern, row, L=len):
     return [(index, index + L(pattern))
-                for index in (i for i, e in enumerate(row) if e == pattern[0])
-                if row[index:index + L(pattern)] == pattern]
+            for index in (i for i, e in enumerate(row) if e == pattern[0])
+            if row[index:index + L(pattern)] == pattern]
 
 
 def checkio(pattern, image):
