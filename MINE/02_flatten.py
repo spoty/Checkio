@@ -1,5 +1,7 @@
 import re
 
+flatten=lambda l: sum(map(flatten,l),[]) if isinstance(l,list) else [l]
+
 def flat_list(l):
     return [int(x) for x in re.sub(r'[\[,\]]', ' ', str(l)).split()]
 
