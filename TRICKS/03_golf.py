@@ -89,3 +89,81 @@ for i in 1, *8:
 # convert boolen to integer
 x = True
 print x, +x
+
+
+
+
+#Be aware of all, any and map:
+if isdigit(a) and isdigit(b) and isd
+igit(c)
+if all(map(isdigit,[a,b,c]))
+# filter(function, iterable) returns a list of all the elements of iterable`
+# for which function is a True-y value and a non-empty list is True-y,
+# so this can be shortened further to
+if filter(isdigit,[a,b,c])
+
+
+
+
+
+# If you need to import a lot of modules you can reassign __import__ to something
+# shorter, this also has the advantage of being able to name imports anything you
+# want.
+i=__import__;s=i('string');x=i('itertools');
+
+
+
+# we can use
+~
+# as negator, if we take -1 as True
+#  a ~a
+#  0 -1
+# -1  0
+# Compare
+while~a:
+while not a:
+
+
+
+
+
+
+# To find the all the indexes of a certain element in a list l, use
+filter(lambda x:l[x]==element,range(len(l)))
+# To find the next index after a certain index:
+l[:index].index(element)
+# To find the nth index:
+list(filter(lambda x:l[x]==element,range(len(l))))[n]
+
+
+
+
+
+# Although python doesn't have switch statements, you can emulate them with
+# dictionaries. For example, if you wanted a switch like this:
+switch (a):
+    case 1:
+        runThisCode()
+        break
+    case 2:
+        runThisOtherCode()
+        break
+    case 3:
+        runThisOtherOtherCode()
+        break
+# You could use if statements, or you could use this:
+exec{1:"runThisCode()",2:"runThisOtherCode()",3:"runThisOtherOtherCode"}[a]
+# To support a default value:
+exec{1:"runThisCode()"}.get(a,"defaultCode()")
+# One other advantage of this is that if you do have redundancies, you could
+#  just add them after the end of the dictionary:
+exec{'key1':'code','key2':'code'}[key]+';codeThatWillAlwaysExecute'
+# And if you just wanted to use a switch to return a value:
+def getValue(key):
+    if key=='blah':return 1
+    if key=='foo':return 2
+    if key=='bar':return 3
+    return 4
+# You could just do this:
+getValue=lambda key:{'blah':1,'foo':2,'bar',3}.get(key,4)
+
