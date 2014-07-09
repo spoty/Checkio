@@ -11,3 +11,13 @@ def checkio(number):
 
 print checkio(2)
 
+
+# getValue=lambda key:{'blah':1,'foo':2,'bar',3}.get(key,4)
+# exec{'key1':'code','key2':'code'}[key]+';codeThatWillAlwaysExecute'
+
+#+{(False, False):'Fizz Buzz',(False, True):'Fizz',(True, False):'Buzz',(True, True):str(number)}[fizz_buzz]
+
+# number = 5
+# d = {(False, False):'Fizz Buzz',(False, True):'Fizz',(True, False):'Buzz',(True, True):str(number)}
+# exec'fizz_buzz = bool(number % 3), bool(number % 5);print d[fizz_buzz]'
+
