@@ -8,7 +8,5 @@ def checkio(data):
                          for ((x_1, y_1), (x_2, y_2)) in pairs(data)))
 
 
-
-
 print checkio([[1, 1], [9, 9], [9, 1]])
 print checkio([[4, 10], [7, 1], [1, 4]])
