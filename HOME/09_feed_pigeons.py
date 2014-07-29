@@ -22,9 +22,19 @@ def pigeons(w, c=0, i=1):
         w, c, i = w - c, c + i, i + 1
         return pigeons(w, c, i)
 
+# Dynamic Programming
+def pigeons(w, c=0, i=1):
+    while w > c:
+        w, c, i = w - c, c + i, i + 1
+    return max(c - i + 1, w)
+
 print pigeons(5)
 print pigeons(10)
 print pigeons(11)
+
+
+
+
 # def checkio(number):
 #     x, n = 0, 1
 
