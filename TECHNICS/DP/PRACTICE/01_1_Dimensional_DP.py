@@ -14,6 +14,7 @@ Example: for n = 5 , the answer is 6
 """
 # 3. Recognize and solve the base cases
 
+# Dynamic Programming
 def checkio(n):
     D=[1,1,1,2]
     for i in range(4, n+1):
@@ -22,6 +23,7 @@ def checkio(n):
 
 checkio(5)
 
+# Brute Force
 def checkio(n):
     from itertools import product
     m = []
@@ -30,3 +32,5 @@ def checkio(n):
     return len([x for x in m if sum(x) == n])
 
 print checkio(5)
+
+
